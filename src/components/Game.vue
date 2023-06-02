@@ -42,7 +42,7 @@ export default {
       // getting a random number between 1 and 100
       this.numberToGuess = Math.floor(Math.random() * (maximumNumber - minimumNumber + 1)) + minimumNumber;
 
-      console.log(this.numberToGuess);
+      console.log("number to guess : ", this.numberToGuess);
     },
 
     submitNumber() {
